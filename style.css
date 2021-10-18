@@ -4,16 +4,23 @@ body {
 }
 
 a {
-  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ededed;
+  text-decoration: none;
+}
+
+button a {
+  color: black;
+}
+
+button a:hover {
+  color: white;
 }
 
 .navbar {
-  background-color: #ededed;
+  background-color: rgb(37, 37, 37);
 }
 
 .top {
@@ -22,56 +29,79 @@ a:hover {
 .scrolled {
   transition: 0.25s ease-in-out 0s;
   box-shadow: 0px 6px 10px 0px rgba(191, 191, 191, 0.75);
+  background-color: rgb(37, 37, 37);
 }
 
 .nav-item {
-  padding-left: 1rem;
-  font-weight: 300;
+  padding-left: 2.5rem;
+  font-weight: 400;
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
 }
 
 #Hero {
   padding-top: 13rem;
   padding-bottom: 13rem;
+  background-color: rgb(37, 37, 37);
 }
 
 #Hey {
-  font-weight: 300;
+  color: white;
+  font-weight: 400;
+  font-size: 2.5rem;
 }
 #Ilyas {
-  font-weight: 400;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 700;
 }
 #Desc {
-  font-weight: 300;
+  color: white;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 #Services {
+  margin-top: 5rem;
   margin-bottom: 8rem;
 }
 
 #About {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 5rem;
   margin-bottom: 10rem;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+#Contact {
 }
 
 .btn {
   border-radius: 12px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  margin-left: 1rem;
   margin-right: 1rem;
   width: 10rem;
 }
 
 .subtitle {
-  color: #377eda;
+  color: #eba31d;
 }
 
 svg {
-  color: #377eda;
+  color: #eba31d;
 }
 
+.service {
+}
 .primary {
-  background-color: #377eda;
-  color: white;
+  background-color: #eba31d;
+  color: black;
 }
 
 .secondary {
@@ -85,4 +115,48 @@ img {
 
 .row {
   height: 100%;
+}
+
+.blogTitle {
+  font-size: xx-large;
+  font-weight: bold;
+}
+.blogContentPc {
+  font-size: larger;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.blogContentMobile {
+  font-size: larger;
+}
+.blogSubTitle {
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.blogInnerLink {
+}
+
+#articleCol a {
+  color: black;
+  text-decoration: none;
+}
+
+#articleCol a:hover {
+  color: rgb(73, 73, 73);
+  text-decoration: none;
+}
+
+input {
+  width: 80%;
+}
+
+footer {
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+footer a {
+  color: white;
 }
